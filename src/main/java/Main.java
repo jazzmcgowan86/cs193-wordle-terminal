@@ -34,6 +34,7 @@ public class Main {
         }
     }
 
+    //colors and reprints the characters into green, white, and yellow
     private static void printWordResult(String wordy) {
         for (int iter = 0; iter < wordy.length(); iter++) {
             char currentChar = wordy.charAt(iter);
