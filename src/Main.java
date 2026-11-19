@@ -3,7 +3,7 @@ import java.util.Scanner;
 //@Author Jazmine McGowan
 
 public class Main {
-    private static final String word = "BACON";
+    private static final String word = DailyWord.getRandom();
 
     static void main(String[] args) {
         IO.println("Enter Your 5-Letter Guess:");
