@@ -1,6 +1,5 @@
 import java.io.IOException;
 import java.util.Scanner;
-//import java.io.IOException;
 //main file for Wordle in Terminal
 //@Author Jazmine McGowan
 
@@ -46,7 +45,8 @@ public class Main {
                 tries--;
                 printWordResult(line);
                 if (tries <= 0) {
-                    IO.println("Game over, man! The word was "+ word);
+                    IO.println(LosingMessages.getRandom());
+                    IO.println("The word was " + word);
                     return;
                 }
             }
